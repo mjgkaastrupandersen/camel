@@ -197,7 +197,7 @@ public class IOConverter {
 And then you should have the Camel Maven Package Plugin in as build plugin when compiling the project.
 Also add the build helper plugin which ensures the generated source code in `src/generated` will be included in the source path.
 
-When using Maven you add:
+When using Maven you add the following to you pom.xml:
 
 [source,xml]
 ----
